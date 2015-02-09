@@ -1,13 +1,96 @@
----
-layout: default
-title: Seges Blog
----
+<!DOCTYPE html>
+<html>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Seges.GitHub.io : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Seges.GitHub.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/seges">View on GitHub</a>
+
+          <h1 id="project_title">Seges.GitHub.io</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="welcome-to-seges-open-source-corner" class="anchor" href="#welcome-to-seges-open-source-corner" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Seges Open-Source corner</h1>
+
+<p>Here you find nice index of projects we are opening to the community.</p>
+
+<h2>
+<a id="docker" class="anchor" href="#docker" aria-hidden="true"><span class="octicon octicon-link"></span></a>Docker</h2>
+
+<ul>
+<li>
+<a href="http://seges.github.io/mug/">mug</a> - Ultimate developer's tool to govern his local environment utilizing Docker
+
+<ul>
+<li>
+<a href="https://github.com/seges/mug-data">mug-data</a> - Default developer data container for mug</li>
+</ul>
+</li>
+<li>
+<a href="http://seges.github.io/cutlery">cutlery</a> - Discovery, proxying and basid Docker environment for your development machine or production environment</li>
+<li>
+<a href="https://github.com/seges/docker-openmq">openmq</a> - Docker image of OpenMQ message broker server</li>
+</ul>
+
+<h2>
+<a id="infrastructure" class="anchor" href="#infrastructure" aria-hidden="true"><span class="octicon octicon-link"></span></a>Infrastructure</h2>
+
+<ul>
+<li><a href="https://github.com/seges/tomcat-control-center">Tomcat Control Center</a></li>
+</ul>
+
+<h2>
+<a id="chef" class="anchor" href="#chef" aria-hidden="true"><span class="octicon octicon-link"></span></a>Chef</h2>
+
+<ul>
+<li>
+<a href="https://github.com/seges/chef-cookbook-grive">Grive</a> - Google Drive for Linux</li>
+<li><a href="https://github.com/seges/chef-cookbook-mass-backup">Mass Backup</a></li>
+<li><a href="https://github.com/seges/chef-cookbook-openmq">OpenMQ</a></li>
+<li>
+<a href="https://github.com/seges/chef-cookbook-pencil">Pencil</a> - Pencil Wireframing tool</li>
+<li><a href="https://github.com/seges/chef-cookbook-proxydriver">Proxy Driver</a></li>
+<li><a href="https://github.com/seges/chef-cookbook-tcc">Tomcat Control Center</a></li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-569687-27");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
